@@ -53,14 +53,16 @@ p.14 p.22-23 참고
 in 연산자를 사용하여 특정 키가 있는지 확인함.
 del를 사용하여 특정 키를 삭제함.
 
-29번 p.28
+29번
+p.28 참고
 
     lim = {'korean':94, 'english':91, 'mathematics':89, 'science':83}
     print(lim.items())
 
 items를 사용하여 키-값 모두 출력함.
 
-30번 p.35 p.28
+30번
+p.35 p.28 참고
 
     choi = {'korean':94, 'english':91, 'mathematics':89, 'science':83}
     choi = {key: value for key, value in choi.items() if value >= 90}
